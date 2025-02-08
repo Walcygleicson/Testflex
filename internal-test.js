@@ -12,7 +12,8 @@ AUX.sum = (a, b) => {
 }
 
 const test = new Testflex({
-    addObserveUsage: [AUX]
+    inspectUsage: [AUX],
+    appID: "testflex-app"
 })
 
 
